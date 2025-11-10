@@ -21,7 +21,7 @@ async def process_file(
     file: discord.Option(discord.Attachment, description="Upload a file"),
     font_size: discord.Option(int, description="Font size", default=36),
 ):
-    await ctx.defer()  # optional, if processing takes time
+    await ctx.defer()
 
     # Download the file bytes
     file_bytes = await file.read()
