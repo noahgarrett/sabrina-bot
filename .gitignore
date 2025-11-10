@@ -1,0 +1,6 @@
+.env
+output_meme.png
+user_image.png
+generated_meme.png
+__pycache__/
+*.pyc
